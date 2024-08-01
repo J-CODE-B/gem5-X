@@ -8,7 +8,7 @@ The readme of gem5 can be found in README-gem5.
 
 After cloning the repo, you need to follow these steps:
 
-1. Compile device tree files: `ce gem5-X && make -C system/arm/dt`
+1. Compile device tree files: `cd gem5-X && make -C system/arm/dt`
 2. Compile the terminal program: `cd util/term && make && cd ../..`
 3. Apply the gem5-X patch to gem5: `./apply-patch.sh <PATH_TO_FULL_SYSTEM_IMAGES>`
 4. Build gem5-X: `scons build/ARM/gem5.fast`
